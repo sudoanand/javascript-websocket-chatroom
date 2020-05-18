@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Websocket Chatroom</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="chatroom">
+        <div class="chatroom_section chatroom_header">
+            <div class="chatroom_section chatroom_header_name">Kitty</div>
+        </div>
+        <div class="chatroom_section chatroom_history">
+            <ul class="chatroom_history_list">
+            </ul>           
+        </div>
+        <div class="chatroom_section chatroom_form">
+            <form action="" onsubmit="return sendMessage()">
+                <input style="padding: 10px;" type="text" class="chatroom_form_inputbox" placeholder="Enter a damn message">
+                <button type="submit" class="chatroom_form_sendBtn">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
